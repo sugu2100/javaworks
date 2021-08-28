@@ -1,0 +1,17 @@
+package classpart;
+
+public class Student {
+	//학생 클래스 정의 : 멤버변수 + 생성자 + 메서드 
+	String studentName; //이름
+	int grade;          //학년
+	
+	/*public Student() { //기본 생성자는 생략 가능
+		
+	}*/
+	
+	//학생 정보 메서드
+	public void showInfo() {
+		System.out.println("이름 : " + studentName);
+		System.out.println("학년 : " + grade);
+	}
+}

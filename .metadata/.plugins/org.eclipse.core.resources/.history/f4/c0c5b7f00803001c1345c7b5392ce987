@@ -1,0 +1,21 @@
+package exercise;
+
+public class Person {
+	int age;           //나이
+	String name;       //이름
+
+	
+	//public Person() {}   //기본 생성자
+	
+	public Person(int a, String n) { //나이와 이름인 매개변수인 생성자
+		age = a;
+		name = n;
+	}
+	
+	//정보 메서드
+	public void showInfo() {
+		System.out.println("나이 : " + age);
+		System.out.println("이름 : " + name);
+
+	}
+}

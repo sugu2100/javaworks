@@ -1,0 +1,9 @@
+package classpart;
+
+public class Account {
+	public String ano;    //°èÁÂ¹øÈ£
+	private String owner;  //°èÁÂÁÖ
+	private int balance;   //ÀÜ¾×
+	
+	public Account() {}
+}

@@ -1,0 +1,17 @@
+package methods;
+
+public class OneUp {
+	
+	public static int oneUp(int x) {
+		x = x + 1;
+		return x;
+	}
+
+	public static void main(String[] args) {
+		// 1증가 함수 호출
+		int num = oneUp(1);
+		System.out.println(num);
+
+	}
+
+}

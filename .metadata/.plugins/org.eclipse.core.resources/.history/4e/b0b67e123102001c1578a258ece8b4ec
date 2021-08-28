@@ -1,0 +1,14 @@
+package arrays;
+
+public class NumberArray {
+
+	public static void main(String[] args) {
+		// 배열 선언
+		// 정수형 numbers 이름의 배열 공간(크기) 3개 생성
+		int[] numbers = new int[3];
+		
+		System.out.println(numbers.length);
+
+	}
+
+}

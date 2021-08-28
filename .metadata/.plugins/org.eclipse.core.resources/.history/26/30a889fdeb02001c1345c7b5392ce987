@@ -1,0 +1,17 @@
+package methods;
+
+public class SayHello {
+
+	public static void main(String[] args) {
+		//System.out.println("Hello~ Elsa");
+		//함수 호출
+		sayHello();
+		sayHello();
+	}
+	
+	//이름이 sayHello인 함수(메서드) 정의
+	public static void sayHello() {
+		System.out.println("Hello~ ");
+	}
+
+}

@@ -1,0 +1,12 @@
+package classpart;
+
+public class Student {
+	//학생 클래스 정의 : 멤버변수
+	String studentName; //이름
+	int grade;          //학년
+	
+	//학생 정보 메서드
+	public void showInfo() {
+		
+	}
+}

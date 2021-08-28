@@ -1,0 +1,13 @@
+package forexample;
+
+public class Gugudan {
+
+	public static void main(String[] args) {
+		// 4´Ü Ãâ·Â
+		int dan = 5;
+		for(int i=1; i<10; i++) {
+			System.out.println(dan + "x" + i + "=" + (dan*i));
+		}
+	}
+
+}
