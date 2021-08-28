@@ -1,0 +1,10 @@
+package staticsample;
+
+public class Employee {
+	int id;
+	String name;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+}

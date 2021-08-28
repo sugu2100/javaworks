@@ -1,0 +1,21 @@
+package staticsample;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		//사원 번호 증가
+		Employee e1 = new Employee();
+		Employee e2 = new Employee();
+		
+		//첫번째 사원
+		e1.setName("이대한");
+		e1.serialNum++;  //1증가
+		System.out.println("사번 : " + e1.serialNum); //1001
+		
+		//두번째 사원
+		e2.setName("장민국");
+		e2.serialNum++;
+		System.out.println("사번 : " + e2.serialNum);
+	}
+
+}

@@ -5,7 +5,7 @@ public class MathEx {
 	public static void main(String[] args) {
 		// Math 클래스의 내장 메서드 사용
 		// 절대값 
-		/*int v1 = Math.abs(-10);
+		int v1 = Math.abs(-10);
 		System.out.println("v1 = " + v1);
 		
 		// 반올림
@@ -32,7 +32,7 @@ public class MathEx {
 		for(int i=1; i<11; i++) {
 			int dice2 = (int)(Math.random()*6) + 1;
 			System.out.println(dice2);
-		}*/
+		}
 		
 		//문자를 랜덤하게 뽑아내기
 		String[] word = {"나", "너", "우리"};
