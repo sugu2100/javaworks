@@ -6,6 +6,7 @@ public class NumberArray {
 		// 배열 선언
 		// 정수형 numbers 이름의 배열 공간(크기) 3개 생성
 		int[] numbers = new int[3];
+		int sum = 0;
 		
 		System.out.println("배열의 개수: " + numbers.length);
 		
@@ -23,8 +24,10 @@ public class NumberArray {
 
 		//배열은 for문과 연동해서 출력
 		for(int i=0; i<numbers.length; i++) { //0, 1, 2
+			sum += numbers[i];
 			System.out.println(numbers[i]);
 		}
+		System.out.println("합계 : " + sum);
 	}
 
 }
