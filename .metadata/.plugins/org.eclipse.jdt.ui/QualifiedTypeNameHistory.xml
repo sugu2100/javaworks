@@ -7,4 +7,9 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="scoremanage.score.Subject"/>
+    <fullyQualifiedTypeName name="car.ManualCar"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="interfaceex.MyCalculator"/>
+    <fullyQualifiedTypeName name="interfaceex.remotecontrol.RemoteControl"/>
+    <fullyQualifiedTypeName name="interfaceex.scheduler.PriorityAllocation"/>
 </qualifiedTypeNameHistroy>
