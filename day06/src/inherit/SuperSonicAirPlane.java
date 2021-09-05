@@ -13,6 +13,7 @@ public class SuperSonicAirPlane extends AirPlane{
 			System.out.println("초음속 비행합니다.");
 		}else {//부모 메서드 상속할때도 super로 접근
 			super.fly();  //일반 비행합니다.
+			//System.out.println("일반 비행합니다.");
 		}	
 	}
 }

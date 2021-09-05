@@ -7,13 +7,21 @@ public class VIPCustomer extends Customer{
 	
 	public VIPCustomer() {
 		customerGrade = "VIP";
-		bonusRatio = 0.05;
-		saleRatio = 0.1;
+		bonusRatio = 0.05;    //보너스 적립율 5%
+		saleRatio = 0.1;      //구매 할인율 10%
+	}
+	
+	public VIPCustomer(int customerId, String customerName, int agentId) {
+		super(customerId, customerName);
+		this.agentId = agentId;
+		customerGrade = "VIP";
+		bonusRatio = 0.05;    //보너스 적립율 5%
+		saleRatio = 0.1;      //구매 할인율 10%
 	}
 
 	@Override //메서드 재정의
 	public int calcPrice(int price) {
-		price -= (int)(price * saleRatio);
+		price -= (int)(price * saleRatio);   //구매 할인
 		bonusPoint += (int)(price * bonusRatio);
 		return price;
 	}

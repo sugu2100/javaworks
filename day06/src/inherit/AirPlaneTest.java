@@ -9,6 +9,7 @@ public class AirPlaneTest {
 		sa.fly();
 		sa.flyMode = SuperSonicAirPlane.SUPERSONIC;
 		sa.fly();
+		sa.flyMode = SuperSonicAirPlane.NORMAL;
 		sa.land();
 	}
 }

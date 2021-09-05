@@ -12,8 +12,20 @@ public class Customer {
 		bonusRatio = 0.01;  //1%
 	}
 	
+	//매개 변수가 있는 생성자
+	public Customer(int customerId, String customerName) {
+		this.customerId = customerId;
+		this.customerName = customerName;
+		customerGrade = "SILVER";
+		bonusRatio = 0.01;  //1%
+	}
+	
 	public void setCustomerName(String customerName) {
 		this.customerName = customerName;
+	}
+	
+	public String getCustomerName() {
+		return customerName;
 	}
 	
 	//보너스 포인트 계산

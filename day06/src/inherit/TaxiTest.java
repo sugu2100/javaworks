@@ -16,7 +16,7 @@ class Taxi extends Car{
 	
 	//super 키우드로 상속 받음
 	public Taxi(String brand, int cc, int passenger) {
-		super(brand, cc);
+		super(brand, cc);  //부모 멤버는 super() 사용
 		this.passenger = passenger;
 	}
 	

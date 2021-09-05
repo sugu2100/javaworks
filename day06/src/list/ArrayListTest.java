@@ -6,7 +6,7 @@ public class ArrayListTest {
 
 	public static void main(String[] args) {
 		// ArrayList 배열 생성하기
-		ArrayList<String> cart = new ArrayList<String>();
+		ArrayList<String> cart = new ArrayList<>();
 		
 		//장바구니 물품 추가
 		cart.add("쌀");

@@ -1,9 +1,0 @@
-package exercise;
-
-public class Person {
-	int age;
-	String name;
-	boolean isMerried;
-	int numberOfChild;
-	
-}

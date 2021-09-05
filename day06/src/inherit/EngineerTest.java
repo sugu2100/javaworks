@@ -9,7 +9,7 @@ class Person{
 
 //Person을 상속한 Engineer 클래스
 class Engineer extends Person{ 
-	int companyId;
+	int companyId;  //사번
 }
 
 public class EngineerTest {
@@ -20,6 +20,8 @@ public class EngineerTest {
 		eng.name = "이봉구";  //부모 멤버에 접근
 		eng.age = 30;       //부모 멤버에 접근
 		eng.companyId = 13; //자기 멤버에 접근
+		
+		System.out.println("이름 : " + eng.name);
 
 	}
 

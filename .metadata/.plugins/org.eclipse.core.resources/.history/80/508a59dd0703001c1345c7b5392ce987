@@ -1,9 +1,0 @@
-package exercise;
-
-public class Person {
-	int age;           //나이
-	String name;       //이름
-	boolean isMerried; //결혼여부
-	int numberOfChild; //자녀수
-	
-}
