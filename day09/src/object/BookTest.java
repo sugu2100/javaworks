@@ -13,7 +13,6 @@ public class BookTest {
 		System.out.println(book);
 		System.out.println(book.toString());
 		
-
 	}
 
 }

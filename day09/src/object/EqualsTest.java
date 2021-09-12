@@ -19,6 +19,9 @@ public class EqualsTest {
 		//저장값 비교 - true가 되어야함.
 		System.out.println(book1.equals(book2));
 		
+		//hashcode 비교
+		System.out.println(book1.hashCode());
+		System.out.println(book2.hashCode());
+		
 	}
-
 }
