@@ -8,7 +8,7 @@ public class HashSetTest {
 
 	public static void main(String[] args) {
 		//부모 인터페이스 set에 String type의 자료형 사용
-		Set<String> set = new HashSet();
+		Set<String> set = new HashSet<>();
 		
 		//자료 추가
 		set.add("감");

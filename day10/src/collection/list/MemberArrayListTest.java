@@ -12,12 +12,14 @@ public class MemberArrayListTest {
 		Member m2 = new Member(102, "ÆÏÁã");
 		Member m3 = new Member(103, "ÈïºÎ");
 		Member m4 = new Member(104, "³îºÎ");
+		Member m5 = new Member(101, "ÄáÁã");
 		
 		//È¸¿ø Ãß°¡
 		mArrayList.addMember(m1);
 		mArrayList.addMember(m2);
 		mArrayList.addMember(m3);
 		mArrayList.addMember(m4);
+		mArrayList.addMember(m5);
 		
 		//È¸¿ø Á¶È¸
 		mArrayList.showAllMember();

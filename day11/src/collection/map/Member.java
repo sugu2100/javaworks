@@ -1,4 +1,4 @@
-package collection;
+package collection.map;
 
 public class Member {
 	private int memberId;  //회원 번호
