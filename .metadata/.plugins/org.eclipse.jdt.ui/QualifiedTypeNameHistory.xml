@@ -28,7 +28,13 @@
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="collection.set.MemberHashSet"/>
     <fullyQualifiedTypeName name="collection.Member"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="collection.map.MemberHashMap"/>
+    <fullyQualifiedTypeName name="innerclass.A.B"/>
+    <fullyQualifiedTypeName name="innerclass.A.C"/>
+    <fullyQualifiedTypeName name="innerclass.Student.Score"/>
 </qualifiedTypeNameHistroy>

@@ -5,12 +5,13 @@ public class Outer {
 	static int sNum = 200;
 	
 	Runnable getRunnable() {  //지역 내부 클래스
-		
+		int num = 10;  //인터페이스에서 변수는 final 상수로 바뀜
 		class MyRunnable implements Runnable{
 			int localNum = 10;
 
 			@Override
 			public void run() {
+				//num = 20;  상수이므로 변경할 수 없음
 				System.out.println(outNum + " : 외부 클래스의 인스턴스 변수");
 				System.out.println(sNum + " : 외부 클래스의 정적 변수");
 				System.out.println(localNum + " : 내부 클래스의 인스턴스 변수");

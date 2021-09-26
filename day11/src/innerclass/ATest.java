@@ -1,7 +1,7 @@
 package innerclass;
 
 class A{
-	A(){
+	public A(){
 		System.out.println("A °´Ã¼ »ý¼º");
 	}
 	
